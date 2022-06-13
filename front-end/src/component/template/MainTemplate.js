@@ -7,7 +7,6 @@
 // Using React library in order to build components 
 // for the app and importing needed components
 import React from 'react';
-import { MDBTypography } from 'mdb-react-ui-kit';
 import MainNav from '../main/MainNav';
 import App from '../../App';
 

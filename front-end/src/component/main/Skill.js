@@ -11,13 +11,13 @@ import { MDBTypography } from 'mdb-react-ui-kit';
 
 
 function Skill() {
-  return (
-    <div className="Skill">
-      <MDBTypography variant='h1'>
-        Welcome to the Skills Page!
-      </MDBTypography>
-    </div>
-  );
+    return (
+        <div className="Skill">
+            <MDBTypography variant='h1'>
+                Welcome to the Skills Page!
+            </MDBTypography>
+        </div>
+    );
 }
 
 export default Skill;

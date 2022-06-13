@@ -3,6 +3,7 @@
 // E-Portfolio - App.js
 // June 9, 2022
 // Last Edited (Initials, Date, Edits):
+//  (DAB, 06/13/2022, Added in page routes and route)
 
 // Using React library in order to build components 
 // for the app and importing needed components
@@ -19,18 +20,18 @@ import Certification from './component/main/Certification';
 
 
 function App() {
-  return (
-    <Routes>
-      <Route exact path='/' element={<Main />} />
-      <Route path='/about' element={<About />} />
-      <Route path='/project' element={<Project />} />
-      <Route path='/education' element={<Education />} />
-      <Route path='/skill' element={<Skill />} />
-      <Route path='/interest' element={<Interest />} />
-      <Route path='/certification' element={<Certification />} />
-    </Routes>
-    
-  );
+    return (
+        <Routes>
+            <Route exact path='/' element={<Main />} />
+            <Route path='/about' element={<About />} />
+            <Route path='/project' element={<Project />} />
+            <Route path='/education' element={<Education />} />
+            <Route path='/skill' element={<Skill />} />
+            <Route path='/interest' element={<Interest />} />
+            <Route path='/certification' element={<Certification />} />
+        </Routes>
+
+    );
 }
 
 export default App;
