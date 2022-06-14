@@ -3,20 +3,22 @@
 // E-Portfolio - App.js
 // June 9, 2022
 // Last Edited (Initials, Date, Edits):
+//  (DAB, 06/13/2022, Added in router capability using browser router)
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom'
 import './css/index.css';
-import '@fortawesome/fontawesome-free/css/all.min.css';
-import 'bootstrap-css-only/css/bootstrap.min.css';
-import 'mdbreact/dist/css/mdb.css';
-import App from './App';
+import 'mdb-react-ui-kit/dist/css/mdb.min.css'
 import reportWebVitals from './reportWebVitals';
+import MainTemplate from './component/template/MainTemplate';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <MainTemplate />
+    </BrowserRouter>
   </React.StrictMode>
 );
 
