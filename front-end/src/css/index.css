@@ -1,3 +1,11 @@
+/** Custom colors **/
+:root {
+  --navLink: grey;
+  --navLinkHover: white;
+  --navBrand: rgb(201, 195, 195);;
+  --navBrandHover: white;
+}
+
 body {
   font-family: Roboto, Helvetica, Arial, sans-serif;
 }
@@ -5,4 +13,27 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+a.navLink, a.navBrand {
+  color: var(--navLink);
+}
+
+a.navLink:hover, a.navBrand:hover {
+  color: var(--navLinkHover);
+}
+
+a.navBrand {
+  color: var(--navBrand);
+  font-weight: bold;
+}
+
+a.navBrand:hover {
+  color: var(--navBrandHover);
+  font-weight: bold;
+}
+
+
+a.navBrand {
+  font-size: x-large;
 }

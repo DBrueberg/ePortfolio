@@ -16,6 +16,7 @@ import {
     MDBNavbarItem,
     MDBNavbarToggler,
     MDBIcon,
+    MDBNavbarBrand,
     MDBCollapse
 } from 'mdb-react-ui-kit';
 
@@ -26,7 +27,7 @@ function MainNav() {
     return (
         <MDBNavbar sticky expand='md' dark bgColor='dark'>
             <MDBContainer fluid>
-                    <Link to="/" onClick={() => isOpen && setIsOpen(!isOpen)}>
+                    <Link className="navBrand" to="/" onClick={() => isOpen && setIsOpen(!isOpen)}>
                         Brueberg
                     </Link>
                 
@@ -43,32 +44,32 @@ function MainNav() {
 
                     <MDBNavbarNav className="d-flex flex-md-row justify-content-between overflow-hidden" right fullWidth={false}>
                         <MDBNavbarItem className="d-flex justify-content-center">
-                            <Link className="mx-1" to="/about" onClick={() => isOpen && setIsOpen(!isOpen)}>
+                            <Link className="navLink mx-1" to="/about" onClick={() => isOpen && setIsOpen(!isOpen)}>
                                 About
                             </Link>
                         </MDBNavbarItem>
                         <MDBNavbarItem className="d-flex justify-content-center">
-                            <Link className="mx-1" to="/project" onClick={() => isOpen && setIsOpen(!isOpen)}>
+                            <Link className="navLink mx-1" to="/project" onClick={() => isOpen && setIsOpen(!isOpen)}>
                                 Projects
                             </Link>
                         </MDBNavbarItem>
                         <MDBNavbarItem className="d-flex justify-content-center">
-                            <Link className="mx-1" to="/education" onClick={() => isOpen && setIsOpen(!isOpen)}>
+                            <Link className="navLink mx-1" to="/education" onClick={() => isOpen && setIsOpen(!isOpen)}>
                                 Education
                             </Link>
                         </MDBNavbarItem>
                         <MDBNavbarItem className="d-flex justify-content-center">
-                            <Link className="mx-1" to="/skill" onClick={() => isOpen && setIsOpen(!isOpen)}>
+                            <Link className="navLink mx-1" to="/skill" onClick={() => isOpen && setIsOpen(!isOpen)}>
                                 Skills
                             </Link>
                         </MDBNavbarItem>
                         <MDBNavbarItem className="d-flex justify-content-center">
-                            <Link className="mx-1" to="/interest" onClick={() => isOpen && setIsOpen(!isOpen)}>
+                            <Link className="navLink mx-1" to="/interest" onClick={() => isOpen && setIsOpen(!isOpen)}>
                                 Interests
                             </Link>
                         </MDBNavbarItem>
                         <MDBNavbarItem className="d-flex justify-content-center">
-                            <Link className="mx-1" to="/certification" onClick={() => isOpen && setIsOpen(!isOpen)}>
+                            <Link className="navLink mx-1" to="/certification" onClick={() => isOpen && setIsOpen(!isOpen)}>
                                 Certifications
                             </Link>
                         </MDBNavbarItem>
