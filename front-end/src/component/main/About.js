@@ -16,7 +16,7 @@ function About() {
             <MDBTypography variant="h1" className="text-center">
                 About
             </MDBTypography>
-            <MDBTypography className="mx-auto" style={{maxWidth: "42rem"}}>
+            <main className="mx-auto" style={{maxWidth: "42rem"}}>
                 <MDBTypography>
                     I currently live in Minnesota and am the father of two
                     children. In 2008 I moved here from Texas and have been
@@ -58,7 +58,7 @@ function About() {
                     from there! My end goal is a full time position as a
                     software engineer.
                 </MDBTypography>
-            </MDBTypography>
+            </main>
         </MDBContainer>
     );
 }
