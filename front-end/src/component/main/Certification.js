@@ -3,6 +3,7 @@
 // E-Portfolio - Certification.js
 // June 13, 2022
 // Last Edited (Initials, Date, Edits):
+//  (DAB, 6/27/2022, Added in basic content/layout)
 
 // Using React library in order to build components 
 // for the app and importing needed components
@@ -25,13 +26,12 @@ function Certification() {
                         <li>
                             2022
                             <ul>
-                                <li>
+                                <li style={{ fontSize: "small"}}>
                                     Python Object-Oriented Programming for Java Developers
                                 </li>
                             </ul>
                         </li>
-                    </ul>
-                    
+                    </ul>   
                 </li>
             </MDBTypography>
         </MDBContainer>
