@@ -3,6 +3,7 @@
 // E-Portfolio - Education.js
 // June 13, 2022
 // Last Edited (Initials, Date, Edits):
+//  (DAB, 6/26/2022, Added in the basic layout and content)
 
 // Using React library in order to build components 
 // for the app and importing needed components
