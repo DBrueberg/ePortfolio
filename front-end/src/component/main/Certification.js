@@ -26,7 +26,7 @@ function Certification() {
                         <li>
                             2022
                             <ul>
-                                <li style={{ fontSize: "small"}}>
+                                <li style={{ fontSize: "small" }}>
                                     Python Object-Oriented Programming for Java Developers
                                 </li>
                             </ul>
