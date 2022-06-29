@@ -9,7 +9,6 @@
 // for the app and importing needed components
 import React from "react";
 import { MDBContainer, MDBIcon, MDBTypography } from "mdb-react-ui-kit";
-import { Link } from "react-router-dom";
 
 function Project() {
     return (
