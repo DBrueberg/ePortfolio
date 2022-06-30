@@ -5,33 +5,40 @@
 // Last Edited (Initials, Date, Edits):
 //  (DAB, 6/27/2022, Added in basic content/layout)
 
-// Using React library in order to build components 
+// Using React library in order to build components
 // for the app and importing needed components
-import React from 'react';
-import { MDBContainer, MDBTypography } from 'mdb-react-ui-kit';
-
+import React from "react";
+import { MDBContainer, MDBTypography } from "mdb-react-ui-kit";
 
 function Certification() {
     return (
         <MDBContainer className="Certification">
-            <MDBTypography className="text-center" variant='h1'>
+            <MDBTypography className="text-center" variant="h1">
                 Certifications
             </MDBTypography>
-            <MDBTypography className="mx-auto" listUnStyled style={{ maxWidth: "42rem" }}>
+            <MDBTypography
+                className="mx-auto"
+                listUnStyled
+                style={{ maxWidth: "42rem" }}
+            >
                 <li className="mb-2">
-                    <MDBTypography className="pb-0 m-0" style={{ fontSize: "large", fontWeight: "bold" }}>
+                    <MDBTypography
+                        className="pb-0 m-0"
+                        style={{ fontSize: "large", fontWeight: "bold" }}
+                    >
                         LinkedIn Certifications
                     </MDBTypography>
-                    <ul >
+                    <ul>
                         <li>
                             2022
                             <ul>
                                 <li style={{ fontSize: "small" }}>
-                                    Python Object-Oriented Programming for Java Developers
+                                    Python Object-Oriented Programming for Java
+                                    Developers
                                 </li>
                             </ul>
                         </li>
-                    </ul>   
+                    </ul>
                 </li>
             </MDBTypography>
         </MDBContainer>
