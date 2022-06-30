@@ -1,0 +1,7 @@
+.standard-color {
+    color: rgb(85, 81, 81);
+}
+
+.standard-hover:hover {
+    color: grey;
+}

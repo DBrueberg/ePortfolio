@@ -13,7 +13,7 @@ import App from '../../App';
 
 function MainTemplate() {
   return (
-    <div className="MainTemplate">
+    <div className="MainTemplate pb-3">
       <MainNav />
       <App />
     </div>

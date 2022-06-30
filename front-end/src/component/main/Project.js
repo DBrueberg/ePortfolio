@@ -7,8 +7,9 @@
 
 // Using React library in order to build components
 // for the app and importing needed components
-import React from "react";
-import { MDBContainer, MDBIcon, MDBTypography } from "mdb-react-ui-kit";
+import React from "react"
+import { MDBContainer, MDBIcon, MDBTypography } from "mdb-react-ui-kit"
+import "../../css/project.css"
 
 function Project() {
     return (
@@ -28,6 +29,7 @@ function Project() {
                     >
                         Restaurant Club
                     </MDBTypography>
+                    
                     <MDBTypography className="pt-0 mt-0" listUnStyled>
                         <li>Social Restaurant Review Web Application</li>
                         <li style={{ fontSize: "small" }}>
@@ -49,21 +51,21 @@ function Project() {
                                 href="https://restaurant-club.netlify.app/"
                                 target="_blank"
                             >
-                                <MDBIcon className="me-1" fas icon="link" />
+                                <MDBIcon className="me-1 standard-color standard-hover" fas icon="link" />
                             </a>
                             <a
                                 rel="noreferrer"
                                 href="https://github.com/DBrueberg/restaurantClub"
                                 target="_blank"
                             >
-                                <MDBIcon className="me-1" fab icon="github" />
+                                <MDBIcon className="me-1 standard-color standard-hover" fab icon="github" />
                             </a>
                         </li>
                     </MDBTypography>
                 </li>
             </MDBTypography>
         </MDBContainer>
-    );
+    )
 }
 
-export default Project;
+export default Project
