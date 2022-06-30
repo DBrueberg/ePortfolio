@@ -7,7 +7,7 @@
 
 // Using React library in order to build components
 // for the app and importing needed components
-import React from "react"
+import React from "react";
 import {
     MDBCard,
     MDBCardBody,
@@ -19,8 +19,8 @@ import {
     MDBRipple,
     MDBRow,
     MDBTypography,
-} from "mdb-react-ui-kit"
-import "../../css/interest.css"
+} from "mdb-react-ui-kit";
+import "../../css/interest.css";
 
 function Interest() {
     return (
@@ -269,7 +269,7 @@ function Interest() {
                 </MDBCol>
             </MDBRow>
         </MDBContainer>
-    )
+    );
 }
 
-export default Interest
+export default Interest;

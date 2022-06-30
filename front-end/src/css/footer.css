@@ -1,0 +1,9 @@
+.footer-link {
+    color: var(--navLink);;
+    border-color: var(--navLink);;
+}
+
+.footer-link:hover {
+    color: var(--navLinkHover);
+    border-color: var(--navLinkHover);
+}

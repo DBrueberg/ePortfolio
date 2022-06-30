@@ -58,9 +58,9 @@ function Main() {
                                 </MDBCardHeader>
                                 <MDBTypography>
                                     My name is Devin Brueberg and have held an
-                                    interest in Software Development for many
-                                    years now. My current focus is on full stack web
-                                    development using mainly React but I am
+                                    interest in software development for many
+                                    years now. My current focus is on full stack
+                                    web development using mainly React but I am
                                     open to other projects. I have a wide array
                                     of development skills and am interested in
                                     anything related to development.
@@ -70,38 +70,6 @@ function Main() {
                     </MDBCol>
                 </MDBRow>
             </MDBCard>
-
-            {/* <MDBRow className="pt-4">
-                <MDBCol>
-                    <MDBCard className="mx-auto h-100">
-                        <MDBRipple
-                            rippleTag="div"
-                            className="bg-image hover-overlay"
-                        >
-                            <img src="me.jpg" className="w-100" />
-                            <div
-                                className="mask"
-                                style={{
-                                    backgroundColor: "rgba(0, 0, 0, 0.1)",
-                                }}
-                            ></div>
-                        </MDBRipple>
-                    </MDBCard>
-                </MDBCol>
-                <MDBCol>
-                    <MDBCard className="mx-auto h-100">
-                        <MDBCardBody>
-                            <MDBCardHeader className="ps-0" tag="h1">
-                                Hello
-                            </MDBCardHeader>
-                            <MDBTypography>
-                                I am Devin Brueberg and have held an interest in
-                                Software Development
-                            </MDBTypography>
-                        </MDBCardBody>
-                    </MDBCard>
-                </MDBCol>
-            </MDBRow> */}
         </MDBContainer>
     );
 }

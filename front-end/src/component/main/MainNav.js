@@ -16,7 +16,6 @@ import {
     MDBNavbarItem,
     MDBNavbarToggler,
     MDBIcon,
-    MDBNavbarBrand,
     MDBCollapse
 } from 'mdb-react-ui-kit';
 

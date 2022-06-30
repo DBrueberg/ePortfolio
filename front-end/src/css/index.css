@@ -1,8 +1,8 @@
 /** Custom colors **/
 :root {
-  --navLink: grey;
+  --navLink: #B5B5B5;
   --navLinkHover: white;
-  --navBrand: rgb(201, 195, 195);;
+  --navBrand: rgb(201, 195, 195);
   --navBrandHover: white;
 }
 
