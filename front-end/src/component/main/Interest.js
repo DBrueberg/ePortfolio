@@ -11,7 +11,6 @@ import React from "react"
 import {
     MDBCard,
     MDBCardBody,
-    MDBCardGroup,
     MDBCardImage,
     MDBCardText,
     MDBCardTitle,
