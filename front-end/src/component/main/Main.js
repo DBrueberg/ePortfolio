@@ -57,13 +57,13 @@ function Main() {
                                     Hello
                                 </MDBCardHeader>
                                 <MDBTypography>
-                                    My name is Devin Brueberg and have held an
+                                    My name is Devin Brueberg and I have held an
                                     interest in software development for many
                                     years now. My current focus is on full stack
-                                    web development using mainly React but I am
+                                    web development using mainly React, but I am
                                     open to other projects. I have a wide array
                                     of development skills and am interested in
-                                    anything related to development.
+                                    anything related.
                                 </MDBTypography>
                             </MDBCardBody>
                         </MDBCard>
