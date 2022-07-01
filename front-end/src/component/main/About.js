@@ -27,7 +27,7 @@ function About() {
                     flying. I really enjoy the mind stimulating challenge of
                     flying in all orientations. Anything that is a challenge is
                     what excites me. I am both very good and enjoy solving
-                    complex problems / overcoming challenges which is why my
+                    complex problems/overcoming challenges which is why my
                     hobbies and career choices reflect this aspect of my
                     personality.
                 </MDBTypography>
@@ -37,7 +37,7 @@ function About() {
                     I decided to go to college and since have finished my
                     Bachelors of Science in Computer Science at the top of my
                     class. Though I am interested in any and all fields, my
-                    current main focus currently is on concreting my knowledge
+                    current main focus is on concreting my knowledge
                     of React web development as well as Java. At this point I
                     have a very good full stack understanding of how to create
                     responsive web applications and am having fun experimenting

@@ -143,8 +143,8 @@ function Interest() {
                                 I enjoy learning new things all the time. There
                                 is not a day that goes by that I do not develop
                                 an interest in a topic and research more about
-                                it. Economics, coding, and science are what I
-                                mainly indulge myself in.
+                                it. Economics, psychology, coding, and science
+                                are what I mainly indulge myself in.
                             </MDBCardText>
                         </MDBCardBody>
                     </MDBCard>
@@ -181,7 +181,7 @@ function Interest() {
                             <MDBCardText>
                                 The warmer parts of the year are my favorite. I
                                 try to get outside whenever I can. Though I
-                                enjoy countless activities my main outdoor
+                                enjoy countless activities, my main outdoor
                                 hobbies are cycling, kayaking, swimming, and
                                 exploring parks.
                             </MDBCardText>
@@ -218,11 +218,10 @@ function Interest() {
                                 Exercise
                             </MDBCardTitle>
                             <MDBCardText>
-                                I both enjoy and see the need in keeping in
-                                keeping fit. My favorite exercises are
-                                stationary bike with some resistance training.
-                                In my exercises simply staying healthy is my
-                                main goal.
+                                I both enjoy and see the need in keeping fit. My
+                                favorite exercises are stationary bike with some
+                                resistance training. In my exercises simply
+                                staying healthy is my main goal.
                             </MDBCardText>
                         </MDBCardBody>
                     </MDBCard>
